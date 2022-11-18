@@ -68,7 +68,6 @@ class AppDatabase {
       const PGURL = process.env.PGURL;
 
       if (PGURL) {
-        console.log(PGURL);
         this.isPostgres = true;
         const client = new Client({
           connectionString: PGURL,
