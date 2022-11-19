@@ -11,7 +11,7 @@
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\index.js",
       "env": {
-        "PGURL": "postgres://ifour:TQhWaspVfnPL7QuZpURpGVJmrkM3V9VT@dpg-cdrlut5a49909bkh88pg-a.singapore-postgres.render.com/ifour"
+        "PGURL": ""
       }
     }
   ]
